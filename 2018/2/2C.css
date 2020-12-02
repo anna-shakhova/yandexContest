@@ -1,0 +1,30 @@
+div {
+    background: repeating-conic-gradient(#654430 0 90deg, #f7ebcc 90deg 180deg);
+    position: relative;
+}
+
+div:before {
+    content: '';
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    top: 17px;
+    left: 17px;
+    border-radius: 50%;
+    border: #5f5d5e solid 5px;
+    box-shadow:0px 0px 0px 3px #252324 inset;
+    background: #5f5d5e;
+}
+
+div:after {
+    content: '';
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    bottom: 17px;
+    right: 17px;
+    border-radius: 50%;
+    border: #5f5d5e solid 5px;
+    box-shadow:0px 0px 0px 3px #252324 inset;
+    background: #5f5d5e;
+}

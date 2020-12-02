@@ -1,0 +1,29 @@
+div {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: #f8e34b;
+    height: 90px;
+    position: relative;
+
+}
+
+div:before {
+    content: '';
+    border-bottom-left-radius: 9px;
+    background: linear-gradient(178deg,  #c8c8c8, #eeedef 8%);;
+    width: 180px;
+    height: 90px;
+    position: absolute;
+    top: 90px;
+}
+
+div:after {
+    content: '';
+    border-bottom-right-radius: 9px;
+    background-color: #0c0c0c;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+}
